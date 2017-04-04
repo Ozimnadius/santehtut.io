@@ -1,0 +1,36 @@
+/*--------------------SECTION-MENU---------------*/
+
+.menu {
+  background-color: $blue;
+  
+  &__title {
+    background-color: #fff;
+    border: 2px solid $blue;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  &__item {
+    font-size: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid $blue-d;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  &__icon, &__text {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #fff;
+  }
+
+  &__icon {
+    width: 20%;
+  }
+
+  &__text {
+    width: 80%;
+  }
+}

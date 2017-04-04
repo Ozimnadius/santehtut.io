@@ -1,0 +1,47 @@
+/*----------------------------SECTION-HEADER-----------------------*/
+
+.header {
+	height: 130px;
+	background-color: $blue-l;
+	width: 100%;
+
+	&__top {
+		background: url(/img/bg/header-address.png);
+		height: 35px;
+		width: 100%;
+	}
+
+	&-top {
+		&__content {
+			float: right;
+			padding-top: 7.5px;
+		}
+	}
+
+}
+
+.header__content {
+	height: 95px;
+	padding-top: 25px;
+}
+
+.header__phones {
+	margin-top: 5px;
+}
+
+.header__mail {
+	margin-top: 15px;
+}
+
+.header__time-work {
+	margin-top: 15px;
+}
+
+.header__button {
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+
+
+

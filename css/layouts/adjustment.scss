@@ -1,0 +1,69 @@
+/*----------------------------SECTION-ADJUSTMENT-----------------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 14px;
+  line-height: $lh;
+  -webkit-font-smoothing: antialiased;
+  background: #fff;
+  color: $black;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+
+  &:after {
+    content: "";
+    display: block;
+    height: 170px;
+  }
+}
+
+footer {
+  height: 170px;
+  margin-top: -170px;
+  position: relative;
+  background: $grey;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #414141;
+}
+
+.clearfix:after, .clearfix:before {
+  content: "";
+  display: block;
+}
+
+.clearfix:after {
+  clear: both;
+}

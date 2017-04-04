@@ -1,0 +1,169 @@
+/*--------------------SECTION-COMMON ---------------*/
+
+.button {
+  background-color: $red;
+  &__link {
+    display: block;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+  }
+  &_white-border {
+    border: 2px solid #fff;
+    border-radius: 2px;
+    &:hover {
+      box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.4);
+    }
+  }
+}
+
+.adress {
+  &__icon {
+    width: 15px;
+    height: 20px;
+    float: left;
+    margin-right: 13px;
+    &-img {
+      width: 100%;
+      height: 100%;
+    }
+
+  }
+
+  &__text {
+    float: left;
+    color: #fff;
+  }
+}
+
+.phones {
+  &__icon {
+    width: 22px;
+    height: 22px;
+    float: left;
+    margin-right: 10px;
+    &-img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__list {
+    float: left;
+  }
+
+  &__item {
+    color: #fff;
+    font-size: 16px;
+  }
+}
+
+.mail {
+  &__icon {
+    width: 22px;
+    height: 20px;
+    float: left;
+    margin-right: 12px;
+    &-img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__text {
+    float: left;
+  }
+  &__link {
+    color: #fff;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+}
+
+.time-work {
+  &__icon {
+    min-width: 22px;
+    height: 22px;
+    float: left;
+    margin-right: 12px;
+    &-img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__list {
+    float: left;
+  }
+
+  &__item {
+    color: #fff;
+  }
+}
+
+.cart {
+  position: relative;
+  height: 100%;
+  &__icon {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  &__amount {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: $red-d;
+    border: 2px solid #fff;
+
+
+  }
+  &__amount-text {
+    font-size: 12px;
+    line-height: 12px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.slider-nav__link {
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  &_right {
+    right: 15px;
+  }
+}
+
+.slider-nav__icon {
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  color: $blue;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+

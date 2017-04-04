@@ -1,0 +1,105 @@
+/*--------------------SECTION-NAV---------------*/
+
+.nav {
+  height: 60px;
+  width: 100%;
+  background-color: $blue;
+  border-top: 5px solid #fff;
+  border-bottom: 5px solid #fff;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.35);
+  margin-bottom: 20px;
+
+  //menu
+  &__list {
+    //padding-top: 15px;
+    float: left;
+    border-right: 1px solid rgb(1, 64, 110);
+    height: 100%;
+  }
+
+  &__item {
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 40px;
+    height: $lh;
+    &_active .nav__link {
+      color: $orange;
+    }
+  }
+
+  &__link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+}
+
+//search
+.nav__search {
+  padding-left: 15px;
+  padding-right: 15px;
+  border-left: 1px solid rgb(74, 147, 200);
+  border-right: 1px solid rgb(1, 64, 110);
+}
+
+.search {
+  position: relative;
+  padding: 10px 0;
+
+  &__form {
+    margin: 0;
+  }
+
+  &__input {
+    width: 100%;
+    padding: 2px 30px 2px 10px;
+    line-height: 22px;
+  }
+
+  &__submit {
+    background: url(/img/icons/magnifyingGlass.png) 0 0 no-repeat;
+    width: 22px;
+    height: 22px;
+    display: block;
+    border: none;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -11px;
+    padding: 0;
+    &:hover {
+      background: url(/img/icons/magnifyingGlass-hover.png) 0 0 no-repeat;
+    }
+  }
+}
+
+//cart
+.nav_cart {
+  border-left: 1px solid rgb(74, 147, 200);
+  border-right: 1px solid rgb(1, 64, 110);
+  height: 100%;
+  position: relative;
+  padding-top: 4px ;
+
+
+  &:after {
+    content: '';
+    display: block;
+    width: 1px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -2px;
+    background-color: rgb(74, 147, 200);
+  }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+// Переменные
+// colors
+$black: #252525;
+$blue-l: #0e6fb6;
+$blue: #045b9b;
+$blue-d: #043e69;
+$red: #e84104;
+$red-d: #dd3206;
+$grey: #4e4e4e;
+$orange: #ee6f44;
+
+//another
+$lh: 1.42em;
+
+
+// layouts
+@import "layouts/normalize";
+@import "layouts/grid.min";
+@import "layouts/fonts";
+@import "layouts/adjustment";
+@import "layouts/common";
+
+// section
+@import "sections/header";
+@import "sections/nav";
+@import "sections/slider-top";
+@import "sections/section";
+@import "sections/menu";
+
+
+
+
+
