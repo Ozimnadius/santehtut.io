@@ -19,6 +19,7 @@ $lh: 1.42em;
 @import "layouts/fonts";
 @import "layouts/adjustment";
 @import "layouts/common";
+@import "layouts/sprite";
 
 // section
 @import "sections/header";
@@ -26,6 +27,10 @@ $lh: 1.42em;
 @import "sections/slider-top";
 @import "sections/section";
 @import "sections/menu";
+@import "sections/content";
+@import "sections/brands";
+@import "sections/news";
+@import "sections/footer";
 
 
 

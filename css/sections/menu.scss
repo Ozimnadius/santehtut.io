@@ -2,7 +2,8 @@
 
 .menu {
   background-color: $blue;
-  
+  position: relative;
+
   &__title {
     background-color: #fff;
     border: 2px solid $blue;
@@ -12,9 +13,18 @@
 
   &__item {
     font-size: 0;
+
+    border-bottom: 2px solid $blue-d;
+
+    &:hover {
+      background-color: $blue-d;
+    }
+  }
+
+  &__link {
+    display: block;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-bottom: 2px solid $blue-d;
     padding-left: 12px;
     padding-right: 12px;
   }
@@ -32,5 +42,37 @@
 
   &__text {
     width: 80%;
+  }
+
+  //  dropdown
+  &__dropdown {
+    position: absolute;
+    left: 9999px;
+    top: 0;
+    width: 600px;
+    background-color: #e3e3e3;
+    z-index: 9999;
+    border: 2px solid $blue-d;
+    border-left: 10px solid $blue-d;
+    padding: 20px 0;
+  }
+
+}
+
+.menu__item:hover .menu__dropdown {
+  left: 100%;
+}
+
+.dropdown {
+  &__item {
+    margin-bottom: 25px;
+  }
+  
+  &__link {
+    display: inline-block;
+    &:hover {
+      color: $blue;
+      text-decoration: underline;
+    }
   }
 }
