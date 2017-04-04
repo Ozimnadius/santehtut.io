@@ -1789,9 +1789,6 @@ a {
     border-left: 10px solid #043e69;
     padding: 20px 0; }
 
-.menu__item:hover .menu__dropdown {
-  left: 100%; }
-
 .dropdown__item {
   margin-bottom: 25px; }
 
