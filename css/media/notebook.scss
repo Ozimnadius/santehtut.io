@@ -1,0 +1,31 @@
+/*--------------------SECTION-NOTEBOOK---------------*/
+
+@media (max-width: 1199px) {
+  .old-phone,
+  .mail-icon,
+  .clock {
+    display: none;
+  }
+
+  .header__time-work {
+    margin-top: 5px;
+  }
+
+  .header__button {
+    margin-top: 7px;
+  }
+
+  .button__link {
+    padding: 3px;
+    text-align: center;
+  }
+
+  .button__text{
+    font-size: 12px;
+  }
+
+  .nav__item {
+    margin-right: 15px;
+  }
+
+}

@@ -51,6 +51,7 @@
 //  news
   &__list {
     text-align: left;
+    margin-bottom: 35px;
   }
 
   &__link {
@@ -74,7 +75,7 @@
     color: #fff;
     background-color: $blue;
     padding: 2px;
-    margin-bottom: 35px;
+    //margin-bottom: 35px;
   }
 
   &-read__link {

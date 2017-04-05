@@ -1410,6 +1410,9 @@ a {
   clear: both; }
 
 /*--------------------SECTION-COMMON ---------------*/
+.logo__pic {
+  max-width: 100%; }
+
 .button {
   background-color: #e84104; }
   .button__link {
@@ -1706,11 +1709,12 @@ a {
   margin-top: 15px; }
 
 .header__time-work {
-  margin-top: 15px; }
+  margin-top: 7px; }
 
 .header__button {
   margin-right: -15px;
-  margin-left: -15px; }
+  margin-left: -15px;
+  margin-top: 5px; }
 
 /*--------------------SECTION-NAV---------------*/
 .nav {
@@ -1785,6 +1789,53 @@ a {
     right: -2px;
     background-color: #4a93c8; }
 
+.hidden-menu {
+  display: none;
+  height: 100%;
+  position: relative;
+  padding: 0; }
+  .hidden-menu__link {
+    display: block;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -15px; }
+    .hidden-menu__link:hover + .hidden-menu__list {
+      left: 0; }
+    .hidden-menu__link:after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 30px; }
+  .hidden-menu__img {
+    max-width: 100%;
+    max-height: 100%; }
+    .hidden-menu__img svg {
+      width: 100%;
+      height: 100%; }
+  .hidden-menu__list {
+    position: absolute;
+    top: 100%;
+    z-index: 999;
+    display: none;
+    background-color: #045b9b;
+    padding: 0;
+    border-top: 2px solid #043e69;
+    text-align: center; }
+  .hidden-menu__item {
+    border-bottom: 2px solid #043e69;
+    padding: 5px; }
+    .hidden-menu__item:hover {
+      background-color: #043e69; }
+
+.hidden-list__link {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff; }
+
 /*--------------------SECTION-SLIDER-TOP---------------*/
 .slider-top {
   margin-bottom: 20px;
@@ -1802,7 +1853,8 @@ a {
     background-color: #fff;
     border: 2px solid #045b9b;
     text-align: center;
-    padding: 10px 0; }
+    padding: 10px 0;
+    cursor: hand; }
   .menu__item {
     font-size: 0;
     border-bottom: 2px solid #043e69;
@@ -2011,7 +2063,8 @@ a {
     font-size: 18px;
     color: #045b9b; }
   .news__list {
-    text-align: left; }
+    text-align: left;
+    margin-bottom: 35px; }
   .news__link {
     text-decoration: underline;
     font-size: 16px;
@@ -2028,8 +2081,7 @@ a {
     font-size: 12px;
     color: #fff;
     background-color: #045b9b;
-    padding: 2px;
-    margin-bottom: 35px; }
+    padding: 2px; }
   .news-read__link {
     text-decoration: underline;
     color: #045b9b; }
@@ -2228,5 +2280,126 @@ a {
   font-size: 18px;
   color: #045b9b;
   text-align: center; }
+
+/*--------------------SECTION-NOTEBOOK---------------*/
+@media (max-width: 1199px) {
+  .old-phone,
+  .mail-icon,
+  .clock {
+    display: none; }
+  .header__time-work {
+    margin-top: 5px; }
+  .header__button {
+    margin-top: 7px; }
+  .button__link {
+    padding: 3px;
+    text-align: center; }
+  .button__text {
+    font-size: 12px; }
+  .nav__item {
+    margin-right: 15px; } }
+
+/*--------------------SECTION-TABLET---------------*/
+@media (max-width: 991px) {
+  .header {
+    height: 90px; }
+  .header__content {
+    height: 55px;
+    padding-top: 5px; }
+  .logo {
+    margin-top: 5px; }
+  .phones__item,
+  .mail__link,
+  .time-work__item,
+  .button__text,
+  .adress__text {
+    font-size: 10px; }
+  .button__link {
+    text-align: center;
+    line-height: 10px; }
+  .nav__item {
+    margin-right: 10px; }
+  .nav__link {
+    font-size: 11px; }
+  .slider-top {
+    display: none; }
+  .search {
+    padding: 14px 0; }
+  .search__input {
+    padding: 2px 30px 2px 5px;
+    line-height: 12px;
+    font-size: 12px; }
+  .menu__icon {
+    display: none; }
+  .menu__dropdown {
+    width: 500px;
+    padding: 10px 0 0 0; }
+  .menu-dropdown__item {
+    margin-bottom: 10px; }
+  .menu-dropdown__link {
+    font-size: 12px; }
+  .products__menu {
+    display: none; }
+  .brands {
+    display: none; }
+  .news {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    .news__title {
+      margin-bottom: 20px; }
+    .news__list {
+      margin-bottom: 20px; }
+    .news__link {
+      font-size: 12px;
+      margin-bottom: 10px; }
+    .news__text {
+      font-size: 10px;
+      margin-bottom: 10px; }
+    .news__date {
+      font-size: 10px;
+      line-height: 12px; }
+  .news-read__text {
+    font-size: 12px; }
+  .item__gallery {
+    margin-bottom: 20px; }
+  .item-gallery__img-pic {
+    width: 100%; }
+  .item-gallery__min-pic {
+    width: 100%; } }
+
+/*--------------------SECTION-PHONES---------------*/
+@media (min-width: 320px) and (max-width: 767px) {
+  .header {
+    height: 75px; }
+    .header__top {
+      display: none; }
+  .logo {
+    text-align: center; }
+  .phones,
+  .mail,
+  .time-work,
+  .header__button,
+  .nav__list,
+  .nav__search,
+  .footer__left {
+    display: none; }
+  .hidden-menu {
+    display: block; }
+  .menu {
+    margin-bottom: 10px; }
+  .menu__dropdown {
+    width: 100%; }
+  .menu__list {
+    display: none; }
+  .menu__item:hover .menu__dropdown {
+    left: 0;
+    top: 100%; }
+  .news {
+    display: none; }
+  .wrapper:after {
+    height: 50px; }
+  .footer {
+    height: 50px;
+    margin-top: -50px; } }
 
 /*# sourceMappingURL=main.css.map */

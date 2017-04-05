@@ -1,5 +1,9 @@
 /*--------------------SECTION-COMMON ---------------*/
 
+.logo__pic {
+  max-width: 100%;
+}
+
 .button {
   background-color: $red;
   &__link {

@@ -1,0 +1,60 @@
+/*--------------------SECTION-PHONES---------------*/
+@media (min-width: 320px) and (max-width: 767px) {
+  .header {
+    height: 75px;
+
+    &__top {
+      display: none;
+    }
+  }
+
+  .logo {
+    text-align: center;
+  }
+
+  .phones,
+  .mail,
+  .time-work,
+  .header__button,
+  .nav__list,
+  .nav__search,
+  .footer__left {
+    display: none;
+  }
+
+  .hidden-menu {
+    display: block;
+  }
+
+  .menu {
+    margin-bottom: 10px;
+  }
+
+  .menu__dropdown {
+    width: 100%;
+  }
+
+  .menu__list {
+    display: none;
+  }
+
+  .menu__item:hover .menu__dropdown {
+    left: 0;
+    top: 100%;
+  }
+
+  .news {
+    display: none;
+  }
+
+  .wrapper {
+    &:after {
+      height: 50px;
+    }
+  }
+
+  .footer {
+    height: 50px;
+    margin-top: -50px;
+  }
+}

@@ -21,6 +21,7 @@ $lh: 1.42em;
 @import "layouts/common";
 @import "layouts/sprite";
 
+
 // section
 @import "sections/header";
 @import "sections/nav";
@@ -33,6 +34,11 @@ $lh: 1.42em;
 @import "sections/footer";
 @import "sections/catalog";
 @import "sections/card";
+
+//media
+@import "media/notebook";
+@import "media/tablet";
+@import "media/phones";
 
 
 
