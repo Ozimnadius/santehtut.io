@@ -79,6 +79,10 @@
 
   &-read__link {
     text-decoration: underline;
+    color: $blue;
+    &:hover {
+      text-decoration: none;
+    }
   }
 
   &-read__text {

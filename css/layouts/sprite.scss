@@ -1,0 +1,144 @@
+.arrow-left {
+  background: url("/img/icons/sprite.png") 0 0;
+  width: 42px;
+  height: 42px;
+  &:hover {
+    background: url("/img/icons/sprite.png") 0 -62px;
+    width: 42px;
+    height: 42px;
+    transform: rotate(180deg);
+  }
+}
+
+.arrow-left2 {
+  background: url("/img/icons/sprite.png") 0 -42px;
+  width: 14px;
+  height: 20px;
+  &:hover {
+    background: url("/img/icons/sprite.png") 0 -104px;
+    width: 13px;
+    height: 19px;
+    transform: rotate(180deg);
+  }
+
+}
+
+.arrow-right {
+  background: url("/img/icons/sprite.png") 0 0;
+  width: 42px;
+  height: 42px;
+  transform: rotate(180deg);
+  &:hover {
+    background: url("/img/icons/sprite.png") 0 -62px;
+    width: 42px;
+    height: 42px;
+    transform: rotate(0deg);
+  }
+}
+
+.arrow-right2 {
+  background: url("/img/icons/sprite.png") 0 -42px;
+  width: 14px;
+  height: 20px;
+  transform: rotate(180deg);
+
+  &:hover {
+    background: url("/img/icons/sprite.png") 0 -104px;
+    width: 13px;
+    height: 19px;
+    transform: rotate(0deg);
+  }
+}
+
+.arrow3 {
+  background: url("/img/icons/sprite.png") 0 -123px;
+  width: 12px;
+  height: 18px;
+}
+
+.arrow4 {
+  background: url("/img/icons/sprite.png") 0 -141px;
+  width: 7px;
+  height: 11px;
+}
+
+.clock {
+  background: url("/img/icons/sprite.png") 0 -152px;
+  width: 22px;
+  height: 23px;
+}
+
+.cranes {
+  background: url("/img/icons/sprite.png") 0 -175px;
+  width: 50px;
+  height: 45px;
+}
+
+.fasteners {
+  background: url("/img/icons/sprite.png") 0 -220px;
+  width: 50px;
+  height: 46px;
+}
+
+.fittings {
+  background: url("/img/icons/sprite.png") 0 -266px;
+  width: 50px;
+  height: 42px;
+}
+
+.magnifyingGlass-hover {
+  background: url("/img/icons/sprite.png") 0 -308px;
+  width: 21px;
+  height: 22px;
+}
+
+.magnifyingGlass {
+  background: url("/img/icons/sprite.png") 0 -330px;
+  width: 21px;
+  height: 22px;
+}
+
+.mail-icon {
+  background: url("/img/icons/sprite.png") 0 -352px;
+  width: 24px;
+  height: 23px;
+}
+
+.old-phone {
+  background: url("/img/icons/sprite.png") 0 -375px;
+  width: 22px;
+  height: 23px;
+}
+
+.pin {
+  background: url("/img/icons/sprite.png") 0 -398px;
+  width: 16px;
+  height: 23px;
+}
+
+.pipe {
+  background: url("/img/icons/sprite.png") 0 -421px;
+  width: 50px;
+  height: 36px;
+}
+
+.radiator {
+  background: url("/img/icons/sprite.png") 0 -457px;
+  width: 44px;
+  height: 50px;
+}
+
+.shopping-cart4 {
+  background: url("/img/icons/sprite.png") 0 -507px;
+  width: 26px;
+  height: 27px;
+}
+
+.web-comp {
+  background: url("/img/icons/sprite.png") 0 -534px;
+  width: 103px;
+  height: 18px;
+  display: inline-block;
+  vertical-align: middle;
+}
+

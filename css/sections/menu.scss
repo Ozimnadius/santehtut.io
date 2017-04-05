@@ -13,11 +13,14 @@
 
   &__item {
     font-size: 0;
-
     border-bottom: 2px solid $blue-d;
+    position: relative;
 
     &:hover {
       background-color: $blue-d;
+      .menu__dropdown {
+        left: 100%;
+      }
     }
   }
 
@@ -48,24 +51,25 @@
   &__dropdown {
     position: absolute;
     left: 9999px;
-    top: 0;
+    top: -2px;
     width: 600px;
     background-color: #e3e3e3;
     z-index: 9999;
     border: 2px solid $blue-d;
     border-left: 10px solid $blue-d;
-    padding: 20px 0;
+    padding: 20px 0 0 0;
   }
 
 }
 
-.dropdown {
+.menu-dropdown {
   &__item {
     margin-bottom: 25px;
   }
   
   &__link {
     display: inline-block;
+    font-size: 14px;
     &:hover {
       color: $blue;
       text-decoration: underline;
