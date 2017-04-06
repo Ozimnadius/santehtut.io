@@ -57,4 +57,32 @@
     height: 50px;
     margin-top: -50px;
   }
+
+  .item__incart {
+    text-align: center;
+  }
+
+  .incart__col {
+    margin: 0;
+  }
+
+  .item__price,
+  .item__cart {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .button__text {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .item__desc,
+  .items__tittle,
+  .item .products__list{
+    display: none;
+  }
+
+
+
 }

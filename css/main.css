@@ -1419,10 +1419,14 @@ a {
     display: block;
     color: #fff;
     padding: 5px 9px;
-    border: 2px solid transparent; }
+    border: 2px solid transparent;
+    font-size: 13px; }
     .button__link:hover {
       border: 2px solid #fff;
       box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.4); }
+    .button__link:active {
+      border: 2px solid #eee;
+      box-shadow: 0px 3px 8px 0px transparent; }
   .button_white-border {
     border: 2px solid #fff;
     border-radius: 2px; }
@@ -1430,6 +1434,8 @@ a {
       border: 2px solid transparent; }
     .button_white-border:hover {
       box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.4); }
+    .button_white-border:active {
+      box-shadow: 0px 3px 8px 0px rgba(238, 238, 238, 0.4); }
 
 .adress__icon {
   width: 15px;
@@ -1724,7 +1730,8 @@ a {
   border-top: 5px solid #fff;
   border-bottom: 5px solid #fff;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.35);
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  position: relative; }
   .nav__list {
     float: left;
     border-right: 1px solid #01406e;
@@ -1792,7 +1799,6 @@ a {
 .hidden-menu {
   display: none;
   height: 100%;
-  position: relative;
   padding: 0; }
   .hidden-menu__link {
     display: block;
@@ -1817,6 +1823,8 @@ a {
       height: 100%; }
   .hidden-menu__list {
     position: absolute;
+    left: 0;
+    right: 0;
     top: 100%;
     z-index: 999;
     display: none;
@@ -1825,16 +1833,18 @@ a {
     border-top: 2px solid #043e69;
     text-align: center; }
   .hidden-menu__item {
-    border-bottom: 2px solid #043e69;
-    padding: 5px; }
+    border-bottom: 2px solid #043e69; }
     .hidden-menu__item:hover {
       background-color: #043e69; }
 
 .hidden-list__link {
+  width: 100%;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: bold;
-  color: #fff; }
+  color: #fff;
+  display: block;
+  padding: 5px; }
 
 /*--------------------SECTION-SLIDER-TOP---------------*/
 .slider-top {
@@ -2400,6 +2410,21 @@ a {
     height: 50px; }
   .footer {
     height: 50px;
-    margin-top: -50px; } }
+    margin-top: -50px; }
+  .item__incart {
+    text-align: center; }
+  .incart__col {
+    margin: 0; }
+  .item__price,
+  .item__cart {
+    width: 100%;
+    margin-bottom: 5px; }
+  .button__text {
+    font-size: 14px;
+    line-height: 16px; }
+  .item__desc,
+  .items__tittle,
+  .item .products__list {
+    display: none; } }
 
 /*# sourceMappingURL=main.css.map */
